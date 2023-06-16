@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="dynamicCal.css">
+    <link rel="shortcut icon" href="https://media.istockphoto.com/id/1137975153/vector/calculator-icon-accounting-sign-calculate-finance-symbol-stock-vector.jpg?s=612x612&w=0&k=20&c=aBQredH9x9lbqh_4MfphmfbzBFnVQ5cvH3sxgWu5GUk=" type="image/x-icon">
+</head>
+<body>
+<center>
+    <h1>Calculator</h1>
+    <input type="number"placeholder="&emsp;&emsp;Enter number"id="n1">
+    <br><br>
+    <div id="result"><input placeholder="result"></div><br>
+    <div id="wait"><input placeholder="wait"></div>
+    <br><br>
+    <input class="i"type="submit" value="add" id="add" >
+    <input class="i"type="submit" value="sub" id="sub">
+    <input class="i"type="submit"value="mul"id="mul" >
+    <input class="i"type="submit"value="div"id="div" > 
+    <input class="i"type="submit"value="mod"id="mod">
+    <input  class="i"type="submit"value="reload"id="reload"onclick="window.location.reload()">
+    <input class="i"type="submit"value="="id="="onclick="equal()">
+</center>
+    
+    <!--dom:document object model:on the real time entity whatever the design we make it reacts on html page
+        3 diff functions 1:getElementById,2:ClassName,3:TagName-->  
+    <script src="dynamicCal.js"></script>
+</body>
+</html>
